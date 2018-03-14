@@ -4,7 +4,7 @@ html {
 }
 
 body {
-	background-image: url("/Users/thomasstaub/Desktop/basic-portfolio/assets/images/whiteBack.png");
+	background-image: url("/Users/thomasstaub/Desktop/Basic-Portfolio/assets/images/whiteBack.png");
 	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 	color: #777777;
     height: 100%;
@@ -13,21 +13,21 @@ body {
 
 header  {
     bottom: 10px;
-    right: 9px;
     position: relative;
+    right: 5px;
     background-color: #ffffff;
     margin-bottom: 35px;
-    min-width: 960px;
     border-bottom-style: solid;
     border-color: #666666;
     border-width: 1px;
+    width: 100%;
 }
 
 footer  {
     background-color: #666666;
     border-top-style: solid;
     border-color: #4aaaa5;
-    border-width: 5px;
+    border-width: 10px;
     width: 100%;
     color: #ffffff;
     text-align: center;
@@ -36,13 +36,12 @@ footer  {
     font-size: 12px;
     margin-top: 50px;
     position: relative;
-    right: 9px;
+    right: 5px;
 }
 
 a  {
     list-style-type: none;
     color: #777777;
-    list-style: none;
     display: inline;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
@@ -51,7 +50,7 @@ a  {
 nav  {
     padding-right: 10px;
     padding-left: 10px;
-    top: 40px;
+    top: 30px;
     position: relative;
     float: right;
 }
@@ -71,16 +70,16 @@ nav  {
     margin-left: 9px;
 }
 main  {
-    width: 930px;
+    width: 910px;
     margin: auto;
     position: relative;
     overflow: auto;
     background-color: #ffffff;
-    padding: 15px;
+    padding: 25px;
 
 }
 .content  {
-    overflow: auto
+    overflow: auto;
 }
 .container  {
     width: 960px;
@@ -119,27 +118,24 @@ a:link  {
 
 #aboutLink  {
     position: relative;
-    border-right-style: dotted;
-    border-width: 1px;
-    border-color: #666666;
-    padding-right: 10px;
-    top: 10px;
+    right: 5px;
+    
 }
 
 #portfolioLink  {
     position: relative;
     border-right-style: dotted;
+    border-left-style: dotted;
     border-width: 1px;
     border-color: #666666;
     padding-right: 10px;
-    padding-left: 5px;
-    top: 10px;
+    padding-left: 10px;
+    
 }
 
 #contactLink  {
     position: relative;
-    top: 10px;
-    padding-left: 5px;
+    left: 5px;    
 }
 
 input  {
@@ -147,13 +143,20 @@ input  {
     height: 20px;
     padding-left: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    outline: none;
 
 }
-
-#messageInput  {
+textarea  {
+    width: 100%;
     height: 150px;
     margin-top: 5px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    border-color: #bbb;
+    font-size: 12px;
 }
+
 #submitButton  {
     margin-top: 30px;
     width: 95px;
@@ -182,9 +185,9 @@ input::placeholder  {
     font-size: 12px;
 }
 
-.boxLink  {
+.boxLink  {   
    height: 160px;
-   width: 240px;
+   width: 250px;
    margin-right: 20px;
    margin-bottom: 15px;
 }
@@ -193,14 +196,8 @@ form  {
     padding-right: 15px;
 }
 
-.tag  {
-    width: 95px;
-    height: 65px;
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
+nav#aboutLink:hover  {
     background-color: #4aaaa5;
 }
-
-
 
 
