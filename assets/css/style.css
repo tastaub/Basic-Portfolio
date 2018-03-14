@@ -39,7 +39,7 @@ footer  {
     right: 5px;
 }
 
-a  {
+.links  {
     list-style-type: none;
     color: #777777;
     display: inline;
@@ -108,7 +108,7 @@ h1  {
 }
 
 p  {
-    width: 930px;
+    width: 910px;
     line-height: 30px;
 }
 
@@ -116,10 +116,22 @@ a:link  {
     text-decoration: none;
 }
 
+#aboutLink:hover  {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 5px;
+}
+
 #aboutLink  {
     position: relative;
     right: 5px;
     
+}
+
+#portfolioLink:hover  {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 5px;
 }
 
 #portfolioLink  {
@@ -131,6 +143,12 @@ a:link  {
     padding-right: 10px;
     padding-left: 10px;
     
+}
+
+#contactLink:hover  {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 5px;
 }
 
 #contactLink  {
@@ -165,6 +183,7 @@ textarea  {
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
+    border-radius: 8px;
     
 }
 #nameInput  {
@@ -186,10 +205,15 @@ input::placeholder  {
 }
 
 .boxLink  {   
-   height: 160px;
-   width: 250px;
+   display: inline-block;
+   height: 220px;
+   width: 290px;
    margin-right: 20px;
    margin-bottom: 15px;
+   float: left;
+
+   
+   
 }
 
 form  {
@@ -199,5 +223,53 @@ form  {
 nav#aboutLink:hover  {
     background-color: #4aaaa5;
 }
+
+.clearfix::after  {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.portfolioContainer  {
+    width:640px;
+}
+#rutgers  {
+    background-image: url("/Users/thomasstaub/Desktop/Basic-Portfolio/assets/images/circuit.jpg");
+    margin-right: 35px;
+}
+
+#hangman  {
+    background-image: url("/Users/thomasstaub/Desktop/Basic-Portfolio/assets/images/code.jpg");
+    margin-right: 35px;
+}
+
+#rpgGame  {
+    background-image: url("/Users/thomasstaub/Desktop/Basic-Portfolio/assets/images/globe.jpg");
+
+}
+
+#trivia  {
+    background-image: url("/Users/thomasstaub/Desktop/Basic-Portfolio/assets/images/pc.jpg");
+
+}
+
+#rockPaper  {
+    background-image: url("/Users/thomasstaub/Desktop/Basic-Portfolio/assets/images/type.jpg");
+    margin-right: 35px;
+}
+
+
+.portfolioTag  {
+    position: relative;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 290px;
+    height: 40px;
+    top: 140px;
+    opacity: .9;
+    text-align: center;
+    padding-top: 20px;
+}
+
 
 
