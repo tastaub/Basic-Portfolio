@@ -19,9 +19,10 @@ header  {
     background-color: #ffffff;
     margin-bottom: 35px;
     border-bottom-style: solid;
-    border-color: #666666;
-    border-width: 1px;
+    border-color: #cccccc;
+    border-width: 2px;
     width: 100%;
+    right: 8px;
 }
 
 footer  {
@@ -30,8 +31,6 @@ footer  {
     border-color: #4aaaa5;
     border-width: 10px;
     width: 100%;
-    color: #ccc;
-    text-align: center;
     padding-top: 20px;
     padding-bottom: 5px;
     font-size: 12px;
@@ -69,12 +68,16 @@ nav  {
     margin-left: 9px;
 }
 main  {
-    width: 910px;
+    width: 908px;
     margin: auto;
     position: relative;
     overflow: auto;
     background-color: #ffffff;
     padding: 25px;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 1px;
+
 
 }
 .content  {
@@ -283,5 +286,12 @@ nav#aboutLink:hover  {
 .footer,
 .push  {
    height: 30px;
+}
+
+span  {
+    position: relative;
+    color: #ccc;
+    left: 45%;
+    top: 15px;
 }
 
