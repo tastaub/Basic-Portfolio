@@ -116,9 +116,7 @@ a:link  {
 }
 
 #aboutLink:hover  {
-    color: #ffffff;
-    background-color: #4aaaa5;
-    padding: 5px;
+    color: #dddddd;
 }
 
 #aboutLink  {
@@ -128,9 +126,7 @@ a:link  {
 }
 
 #portfolioLink:hover  {
-    color: #ffffff;
-    background-color: #4aaaa5;
-    padding: 5px;
+    color: #dddddd;
 }
 
 #portfolioLink  {
@@ -145,9 +141,7 @@ a:link  {
 }
 
 #contactLink:hover  {
-    color: #ffffff;
-    background-color: #4aaaa5;
-    padding: 5px;
+    color: #dddddd;
 }
 
 #contactLink  {
