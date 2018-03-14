@@ -271,6 +271,8 @@ nav#aboutLink:hover  {
    border-color: #4aaaa5;
    width: 250px;
    background-color: #ff5700;
+   padding-top: 5px;
+   padding-bottom: 5px;
 }
 
 .wrapper  {
