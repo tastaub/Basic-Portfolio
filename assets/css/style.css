@@ -39,7 +39,7 @@ footer  {
 
 .links  {
     list-style-type: none;
-    color: #777777;
+    color: #888888;
     display: inline;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
@@ -105,14 +105,16 @@ h1  {
 
 #myImage  {
     float: left;
-    margin-right: 50px;
-    margin-bottom: 5px;
+    margin-right: 25px;
+    margin-bottom: 25px;
 }
 
 p  {
     width: 910px;
     line-height: 30px;
 }
+
+
 
 a:link  {
     text-decoration: none;
@@ -137,7 +139,7 @@ a:link  {
     border-right-style: dotted;
     border-left-style: dotted;
     border-width: 1px;
-    border-color: #666666;
+    border-color: #dddddd;
     padding-right: 10px;
     padding-left: 10px;
     
@@ -203,10 +205,10 @@ input::placeholder  {
 .boxLink  {   
    display: inline-block;
    height: 180px;
-   width: 260px;
+   width: 240px;
    margin-right: 20px;
    margin-bottom: 35px;
-   float: left;
+   
 }
 
 form  {
@@ -259,20 +261,19 @@ nav#aboutLink:hover  {
     position: relative;
     color: #ffffff;
     background-color: #4aaaa5;
-    width: 260px;
+    width: 240px;
     top: 120px;
     opacity: .8;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    border-radius: 8px;
 }
 
 .portfolioTag:hover  {
     border-style: solid;
    border-width: 5px;
    border-color: #4aaaa5;
-   width: 250px;
+   width: 230px;
    background-color: #ff5700;
    padding-top: 5px;
    padding-bottom: 5px;
@@ -289,9 +290,10 @@ nav#aboutLink:hover  {
 }
 
 span  {
-    position: relative;
     color: #ccc;
-    left: 45%;
+    position: relative;
+    left: 46%;
     top: 15px;
 }
+
 
