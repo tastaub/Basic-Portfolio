@@ -215,9 +215,7 @@ form  {
     padding-right: 15px;
 }
 
-nav#aboutLink:hover  {
-    background-color: #4aaaa5;
-}
+
 
 .clearfix::after  {
     content: "";
