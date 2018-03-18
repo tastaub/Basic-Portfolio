@@ -107,6 +107,8 @@ h1  {
     float: left;
     margin-right: 25px;
     margin-bottom: 25px;
+    height: 250px;
+    width: 250px;
 }
 
 p  {
@@ -121,8 +123,9 @@ a:link  {
 }
 
 #aboutLink:hover  {
-    color: #dddddd;
+    color: #ff5700;
 }
+
 
 #aboutLink  {
     position: relative;
@@ -131,7 +134,7 @@ a:link  {
 }
 
 #portfolioLink:hover  {
-    color: #dddddd;
+    color: #ff5700;
 }
 
 #portfolioLink  {
@@ -146,7 +149,7 @@ a:link  {
 }
 
 #contactLink:hover  {
-    color: #dddddd;
+    color: #ff5700;
 }
 
 #contactLink  {
